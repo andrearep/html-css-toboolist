@@ -9,12 +9,19 @@ body{
     
 }
 
-.pl{
-    padding-left: 30px;
-}
 .mtb{
     margin: 15px 0;
 }
+.ml{
+        margin-left: 30px;
+}
+.mtop{
+    margin-top: 40px;
+}
+.pbott{
+    padding-bottom: 20px;
+}
+
 /*header*/
 header > div{
     background-color: white;
@@ -39,7 +46,8 @@ header > div{
 /* buttons */
 
 .div_buttons{
-    border-bottom: lightgray;
+    border-bottom: 1px solid lightgray;
+    padding:0;
 }
 .button_1{
     background-color: #47adf1;
@@ -56,4 +64,55 @@ header > div{
     border: 1px solid lightgray;
     padding: 3px;
 }
-gg
+.site_list > div{
+    font-size: 1.3rem;
+}
+/* cross and check */
+.cross, .check{
+    border-radius: 50px;
+    padding:1px;
+    font-size: 10px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.check{
+    border:1px solid green;
+    color: green;
+}
+.cross{
+    border:1px solid red;
+    color: red;
+   
+}
+.mtop> div{
+    margin-top:15px;
+
+/*simbol  */
+}
+.simbol{
+    font-size: 0.75rem;
+    border-radius: 15px;
+    color: white;
+    padding:8px
+}
+.color1{
+    background-color: #45abea ;
+}
+.color2{
+    background-color: #9c72e4 ;
+}
+.color3{
+    background-color: #64c0a9 ;
+}
+.color4{
+    background-color: #f29e33 ;
+}
+.color5{
+    background-color: #d863a1 ;
+}
+.color6{
+    background-color: #b0c926 ;
+}
+
+
